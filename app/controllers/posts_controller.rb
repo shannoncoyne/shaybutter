@@ -8,14 +8,17 @@ class PostsController < ApplicationController
   end
 
   def new
+    authenticate
     @post = Post.new
   end
 
   def edit
+    authenticate
     @post = Post.find(params[:id])
   end
 
   def create
+    auhenticate
     @post = Post.new(post_params)
 
     if @post.save
@@ -26,6 +29,7 @@ class PostsController < ApplicationController
   end
 
   def update
+    authenticate
     @post = Post.find(params[:id])
 
     if @post.update(post_params)
@@ -36,6 +40,7 @@ class PostsController < ApplicationController
   end
 
   def destroy
+    authenticate
     @post = Post.find(params[:id])
     @post.destroy
 

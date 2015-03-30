@@ -32,7 +32,10 @@
 				<p class='notice'><%= notice %></p>
 				<p class='alert'><%= alert %></p>
         <%= yield %>
-			</div>
+        <% if admin_signed_in? %>
+          <%= link_to "Log out", destroy_admin_session_path, method: :delete %>
+        <% end %>
+      </div>
 		</div>
 
 		<div id='bottom'>
