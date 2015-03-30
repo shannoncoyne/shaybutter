@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang='en-US'>
+  <head>
+  <title>shaybutter.net</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  </head> 
+  <body>
+
+		<div id='header'>
+			<div id='header-container'>
+				<img src='<%= image_path('latte.png') %>' alt='maccha latte'>
+				<div id='offset'>
+					<a href='http://www.shaybutter.net'>shaybutter.net</a><br/>
+					<span class='hanja latte'>まっちゃラッテ</span>
+				</div>
+			</div>
+		</div>
+		
+		<div id='navigation'>
+			<a href='http://www.shannoncoyne.com'>Portfolio</a>
+			|
+			<a href='https://www.github.com/shannoncoyne'>GitHub</a>
+		</div>
+		
+		<div id='divider'></div>
+
+		<div id='middle'>
+			<div id='content'>
+
+				<p class='notice'><%= notice %></p>
+				<p class='alert'><%= alert %></p>
+        <%= yield %>
+			</div>
+		</div>
+
+		<div id='bottom'>
+			<a href='http://www.shaybutter.net'>shaybutter.net</a><br/>
+			<a href='https://www.github.com/shannoncoyne'>
+				<img src='<%= image_path('github.png') %>' alt='shannoncoyne @ GitHub'>
+			</a>
+		</div>
+	</body>
+</html>

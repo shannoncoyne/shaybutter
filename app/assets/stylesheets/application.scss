@@ -1,0 +1,147 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+body {
+	margin: 1.5em 0 0 0;
+	background-color: #1b1b1b;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	color: #c2c2c2;
+}
+
+h1 {
+	color: #fff;
+}
+
+.hanja {
+	font-family: 'aquafont';
+}
+
+iframe {
+	margin-top: 1.5em;
+}
+
+code {
+	color: #000;
+}
+
+a {
+	color: #559572;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fff;
+}
+
+/* Header
+******************************/
+#header {
+	font-family: 'Hero';
+	font-size: 2em;
+	color: #a5f1c7;
+}
+
+#header a {
+	color: #a5f1c7;
+	font-size: 1.5em;
+	text-decoration: none;
+}
+
+#header img {
+	float: left;
+	padding-right: 0.5em;
+}
+
+#header-container {
+	width: 675px;
+	margin: auto;
+}
+
+#offset {
+	padding-top: 1em;
+	margin-bottom: 1.5em;
+}
+
+#latte {
+
+}
+
+/* Navigation
+******************************/
+#navigation {
+	clear: both;
+	text-align: center;
+	color: #535353;
+	font-size: 2.5em;
+	background-color: #282828;
+}
+
+#navigation a {
+	color: #559572;
+	text-decoration: none;
+}
+
+#navigation a:hover {
+	color: #fff;
+}
+
+#divider {
+	height: 4px;
+}
+
+/* Content
+******************************/
+#middle {
+	background: url(image-path('bg.png')) repeat-x;
+}
+
+#content {
+	width: 600px;
+	margin: auto;
+}
+
+
+/* Bottom
+******************************/
+#bottom {
+	background-color: #000;
+	text-align: center;
+	font-family: 'Hero';
+	font-size: 200%;
+	text-align: center;
+	padding: 0.25em 0;
+}
+
+#bottom a {
+	color: #333;
+	text-decoration: none;
+}
+
+#bottom img {
+	border: 0;
+}
+
+/* Font imports
+******************************/
+@font-face {
+	font-family: 'Hero';
+	src: font-url('Hero.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'aquafont';
+	src: font-url('aquafont.ttf') format('truetype');
+}

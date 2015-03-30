@@ -1,0 +1,15 @@
+<div class='post'>
+	<div class='time'>
+		<div class='hanja day'><%= hanja(post.created_at.wday) %></div>
+		<span class='month'><%= post.created_at.strftime("%B") %></span><span class='date'><%= post.created_at.strftime("%d") %></span>
+	</div>
+	<div class='post-left-margin'>
+		<div class='subject'>
+			<%= link_to post.title, post_path(post.id) %>
+		</div>
+		<span class='tag'><a href='#'>#tag</a></span> <span class='tag'><a href='#'>#grapefruit</a></span>
+		<div class='post-text'>
+			<%= markdown(post.text) %>
+		</div>
+	</div>
+</div>
