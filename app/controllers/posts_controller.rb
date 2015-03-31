@@ -18,7 +18,7 @@ class PostsController < ApplicationController
   end
 
   def create
-    auhenticate
+    authenticate
     @post = Post.new(post_params)
 
     if @post.save
