@@ -14,11 +14,9 @@
  *= require_self
  */
 body {
-	margin: 1.5em 0 0 0;
-	background-color: #1b1b1b;
+	margin: 0;
 	font-family: 'Roboto', sans-serif;
 	font-size: 1em;
-	color: #c2c2c2;
 }
 
 h1 {
@@ -37,9 +35,14 @@ code {
 	color: #000;
 }
 
+#green {
+	background: url(image-path('green.gif')) repeat-x;
+}
+
 a {
-	color: #559572;
+	color: #87d9ac;
 	text-decoration: none;
+	font-weight: bold;
 }
 
 a:hover {
@@ -52,10 +55,11 @@ a:hover {
 	font-family: 'Hero';
 	font-size: 2em;
 	color: #a5f1c7;
+	padding: .5em 0 .25em 0;
 }
 
 #header a {
-	color: #a5f1c7;
+	color: #000;
 	font-size: 1.5em;
 	text-decoration: none;
 }
@@ -75,8 +79,8 @@ a:hover {
 	margin-bottom: 1.5em;
 }
 
-#latte {
-
+.latte {
+	color: #8bd0b0;
 }
 
 /* Navigation
@@ -84,40 +88,36 @@ a:hover {
 #navigation {
 	clear: both;
 	text-align: center;
-	color: #535353;
 	font-size: 2.5em;
-	background-color: #282828;
+	padding: 0.08em 0;
 }
 
 #navigation a {
-	color: #559572;
+	color: #a5dcbd;
 	text-decoration: none;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: lighter;
 }
 
 #navigation a:hover {
 	color: #fff;
 }
 
-#divider {
-	height: 4px;
-}
-
 /* Content
 ******************************/
-#middle {
-	background: url(image-path('bg.png')) repeat-x;
-}
-
 #content {
-	width: 600px;
+	width: 80%;
+	padding: 0 1.5em;
 	margin: auto;
+	background-color: #1b1b1b;
+	box-shadow: 0px 0px 8px 0px #888;
 }
 
 
 /* Bottom
 ******************************/
 #bottom {
-	background-color: #000;
+	margin-top: 1em;
 	text-align: center;
 	font-family: 'Hero';
 	font-size: 200%;
@@ -132,6 +132,27 @@ a:hover {
 
 #bottom img {
 	border: 0;
+}
+
+/* Form
+******************************/
+input,
+textarea {
+	font: inherit;
+	margin: 0;
+}
+
+input {
+	width: 100%;
+}
+
+textarea {
+	width: 100%;
+	height: 10em;
+}
+
+label {
+	color: #fff;
 }
 
 /* Font imports

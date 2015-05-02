@@ -34,9 +34,9 @@ ActiveRecord::Schema.define(version: 20150330232325) do
 
   create_table "posts", force: :cascade do |t|
     t.string   "title",      limit: 255
-    t.string   "text",       limit: 255
-    t.datetime "created_at",             null: false
-    t.datetime "updated_at",             null: false
+    t.text     "text",       limit: 65535
+    t.datetime "created_at",               null: false
+    t.datetime "updated_at",               null: false
   end
 
 end
