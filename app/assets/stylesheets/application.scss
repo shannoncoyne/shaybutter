@@ -49,6 +49,26 @@ a:hover {
 	color: #fff;
 }
 
+/* Navigation
+******************************/
+#navigation {
+	clear: both;
+	text-align: center;
+	font-size: 2.5em;
+	padding: 0.08em 0;
+}
+
+#navigation a {
+	color: #a5dcbd;
+	text-decoration: none;
+	font-family: inherit;
+	font-weight: lighter;
+}
+
+#navigation a:hover {
+	color: #535353;
+}
+
 /* Header
 ******************************/
 #header {
@@ -83,26 +103,6 @@ a:hover {
 	color: #8bd0b0;
 }
 
-/* Navigation
-******************************/
-#navigation {
-	clear: both;
-	text-align: center;
-	font-size: 2.5em;
-	padding: 0.08em 0;
-}
-
-#navigation a {
-	color: #a5dcbd;
-	text-decoration: none;
-	font-family: 'Roboto Condensed', sans-serif;
-	font-weight: lighter;
-}
-
-#navigation a:hover {
-	color: #535353;
-}
-
 /* Content
 ******************************/
 #content {
@@ -112,7 +112,6 @@ a:hover {
 	background-color: #1b1b1b;
 	box-shadow: 0px 0px 8px 0px #888;
 }
-
 
 /* Bottom
 ******************************/

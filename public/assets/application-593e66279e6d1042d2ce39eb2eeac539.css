@@ -1,0 +1,266 @@
+/* line 5, /Users/shannon/sites/shaybutter/app/assets/stylesheets/posts.scss */
+.post {
+  padding: 2em 0;
+}
+
+/* line 9, /Users/shannon/sites/shaybutter/app/assets/stylesheets/posts.scss */
+.time {
+  color: #a5f1c7;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2.6em;
+}
+
+/* line 15, /Users/shannon/sites/shaybutter/app/assets/stylesheets/posts.scss */
+.day {
+  color: #fff;
+  width: 40px;
+  float: left;
+  position: relative;
+  top: 5px;
+}
+
+/* line 23, /Users/shannon/sites/shaybutter/app/assets/stylesheets/posts.scss */
+.month {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* line 28, /Users/shannon/sites/shaybutter/app/assets/stylesheets/posts.scss */
+.post-left-margin {
+  margin-left: 40px;
+}
+
+/* line 32, /Users/shannon/sites/shaybutter/app/assets/stylesheets/posts.scss */
+.subject {
+  margin-bottom: 1em;
+}
+
+/* line 36, /Users/shannon/sites/shaybutter/app/assets/stylesheets/posts.scss */
+.subject a {
+  color: #fff;
+  font-size: 3em;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* line 43, /Users/shannon/sites/shaybutter/app/assets/stylesheets/posts.scss */
+.tag, code {
+  background-color: #a5f1c7;
+  padding: 0.2em;
+  border: 2px solid #a5f1c7;
+  border-radius: 10px;
+}
+
+/* line 50, /Users/shannon/sites/shaybutter/app/assets/stylesheets/posts.scss */
+.tag a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* line 55, /Users/shannon/sites/shaybutter/app/assets/stylesheets/posts.scss */
+.tag a:hover {
+  color: #559572;
+}
+
+/* line 59, /Users/shannon/sites/shaybutter/app/assets/stylesheets/posts.scss */
+.post-text {
+  color: #c2c2c2;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+/* line 65, /Users/shannon/sites/shaybutter/app/assets/stylesheets/posts.scss */
+.post blockquote {
+  color: #fff;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+/* line 17, /Users/shannon/sites/shaybutter/app/assets/stylesheets/application.scss */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+}
+
+/* line 23, /Users/shannon/sites/shaybutter/app/assets/stylesheets/application.scss */
+h1 {
+  color: #fff;
+}
+
+/* line 27, /Users/shannon/sites/shaybutter/app/assets/stylesheets/application.scss */
+.hanja {
+  font-family: 'aquafont';
+}
+
+/* line 31, /Users/shannon/sites/shaybutter/app/assets/stylesheets/application.scss */
+iframe {
+  margin-top: 1.5em;
+}
+
+/* line 35, /Users/shannon/sites/shaybutter/app/assets/stylesheets/application.scss */
+code {
+  color: #000;
+}
+
+/* line 39, /Users/shannon/sites/shaybutter/app/assets/stylesheets/application.scss */
+#green {
+  background: url("/assets/green-d1c31da97d7bd149aed261c831f275c2.gif") repeat-x;
+}
+
+/* line 43, /Users/shannon/sites/shaybutter/app/assets/stylesheets/application.scss */
+a {
+  color: #87d9ac;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* line 49, /Users/shannon/sites/shaybutter/app/assets/stylesheets/application.scss */
+a:hover {
+  color: #fff;
+}
+
+/* Navigation
+******************************/
+/* line 55, /Users/shannon/sites/shaybutter/app/assets/stylesheets/application.scss */
+#navigation {
+  clear: both;
+  text-align: center;
+  font-size: 2.5em;
+  padding: 0.08em 0;
+}
+
+/* line 62, /Users/shannon/sites/shaybutter/app/assets/stylesheets/application.scss */
+#navigation a {
+  color: #a5dcbd;
+  text-decoration: none;
+  font-family: inherit;
+  font-weight: lighter;
+}
+
+/* line 69, /Users/shannon/sites/shaybutter/app/assets/stylesheets/application.scss */
+#navigation a:hover {
+  color: #535353;
+}
+
+/* Header
+******************************/
+/* line 75, /Users/shannon/sites/shaybutter/app/assets/stylesheets/application.scss */
+#header {
+  font-family: 'Hero';
+  font-size: 2em;
+  color: #a5f1c7;
+  padding: .5em 0 .25em 0;
+}
+
+/* line 82, /Users/shannon/sites/shaybutter/app/assets/stylesheets/application.scss */
+#header a {
+  color: #000;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+/* line 88, /Users/shannon/sites/shaybutter/app/assets/stylesheets/application.scss */
+#header img {
+  float: left;
+  padding-right: 0.5em;
+}
+
+/* line 93, /Users/shannon/sites/shaybutter/app/assets/stylesheets/application.scss */
+#header-container {
+  width: 675px;
+  margin: auto;
+}
+
+/* line 98, /Users/shannon/sites/shaybutter/app/assets/stylesheets/application.scss */
+#offset {
+  padding-top: 1em;
+  margin-bottom: 1.5em;
+}
+
+/* line 103, /Users/shannon/sites/shaybutter/app/assets/stylesheets/application.scss */
+.latte {
+  color: #8bd0b0;
+}
+
+/* Content
+******************************/
+/* line 109, /Users/shannon/sites/shaybutter/app/assets/stylesheets/application.scss */
+#content {
+  width: 80%;
+  padding: 0 1.5em;
+  margin: auto;
+  background-color: #1b1b1b;
+  box-shadow: 0px 0px 8px 0px #888;
+}
+
+/* Bottom
+******************************/
+/* line 119, /Users/shannon/sites/shaybutter/app/assets/stylesheets/application.scss */
+#bottom {
+  margin-top: 1em;
+  text-align: center;
+  font-family: 'Hero';
+  font-size: 200%;
+  text-align: center;
+  padding: 0.25em 0;
+}
+
+/* line 128, /Users/shannon/sites/shaybutter/app/assets/stylesheets/application.scss */
+#bottom a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* line 133, /Users/shannon/sites/shaybutter/app/assets/stylesheets/application.scss */
+#bottom img {
+  border: 0;
+}
+
+/* Form
+******************************/
+/* line 139, /Users/shannon/sites/shaybutter/app/assets/stylesheets/application.scss */
+input,
+textarea {
+  font: inherit;
+  margin: 0;
+}
+
+/* line 145, /Users/shannon/sites/shaybutter/app/assets/stylesheets/application.scss */
+input {
+  width: 100%;
+}
+
+/* line 149, /Users/shannon/sites/shaybutter/app/assets/stylesheets/application.scss */
+textarea {
+  width: 100%;
+  height: 10em;
+}
+
+/* line 154, /Users/shannon/sites/shaybutter/app/assets/stylesheets/application.scss */
+label {
+  color: #fff;
+}
+
+/* Font imports
+******************************/
+@font-face {
+  font-family: 'Hero';
+  src: url(/assets/Hero-5963799805ace387a8087c9a48d4c21b.otf) format("opentype");
+}
+@font-face {
+  font-family: 'aquafont';
+  src: url(/assets/aquafont-fe47a55c1cb42fecfbf56f440473394b.ttf) format("truetype");
+}
