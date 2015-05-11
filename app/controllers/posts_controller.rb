@@ -1,4 +1,6 @@
 class PostsController < ApplicationController
+  before_filter :authenticate_admin!, :except => [:index, :show]
+
   def index
     @posts = Post.order(created_at: :desc).all
   end
@@ -8,17 +10,14 @@ class PostsController < ApplicationController
   end
 
   def new
-    authenticate
     @post = Post.new
   end
 
   def edit
-    authenticate
     @post = Post.find(params[:id])
   end
 
   def create
-    authenticate
     @post = Post.new(post_params)
 
     if @post.save
@@ -29,7 +28,6 @@ class PostsController < ApplicationController
   end
 
   def update
-    authenticate
     @post = Post.find(params[:id])
 
     if @post.update(post_params)
@@ -40,7 +38,6 @@ class PostsController < ApplicationController
   end
 
   def destroy
-    authenticate
     @post = Post.find(params[:id])
     @post.destroy
 
